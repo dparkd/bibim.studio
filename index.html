@@ -8,17 +8,35 @@
 			background: black;
 		}
 
-		img {
+		.container {
 			position: fixed;
-			top: 50%; 
+			bottom: 50%; 
 			left: 50%;
-			transform: translate(-50%, -50%);
+			transform: translate(-50%, 50%);
+			text-align: center;
+		}
+
+		img {
+			width: 300px; 
+		}
+
+		p {
+			color: white; 
+			font-family: monospace;
+		}
+
+		a {
+			color: white;
+			font-style: italic;
 		}
 	</style>
 </head>
 <body>
-	<a href="https://www.are.na/bibim_-studio" target="_blank">
-		<img src="./assets/images/logo.jpg" alt="">
-	</a>
+	<div class="container">
+		<a href="https://www.are.na/bibim_-studio" target="_blank">
+			<img src="./assets/images/logo.jpg" alt="">
+		</a>
+		<p>a studio/workspace/project by <a href="http://itsdpark.com" target="_blank">itsdpark</a></p>
+	</div>
 </body>
 </html>
