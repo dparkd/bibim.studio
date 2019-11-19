@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>yes</title>
+	<style>
+		body {
+			font-family: monospace;
+			background: #111;
+			color: white;
+			text-align: center;
+		}
+		h1 {
+			font-family: 'helvetica', sans-serif;
+			font-size: 90em;
+		}
+		div {
+			position: fixed; 
+			top: 30%; 
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<!-- <p>can daniel earn money?</p> -->
+		<h1 id="yes">yes</h1>
+	</div>
+
+	<script>
+		var text = document.getElementById('yes');
+		text.style.fontSize = window.innerWidth - window.innerWidth *.3;
+
+		window.addEventListener('resize', function(event){
+			text.style.fontSize = window.innerWidth - window.innerWidth *.3;
+		});
+	</script>
+</body>
+</html>
