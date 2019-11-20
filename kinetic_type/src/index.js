@@ -19,8 +19,8 @@ const {
 class App {
   get size() {
     return {
-      width: window.innerWidth,
-      height: window.innerHeight
+      width: 300,
+      height: 300
     };
   }
 
