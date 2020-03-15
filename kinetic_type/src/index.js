@@ -19,8 +19,8 @@ const {
 class App {
   get size() {
     return {
-      width: 800,
-      height: 800
+      width: 500,
+      height: 500
     };
   }
 
